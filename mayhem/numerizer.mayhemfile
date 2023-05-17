@@ -1,0 +1,6 @@
+project: PROJECT_NAME
+target: numerizer
+duration: 600
+cmds:
+    - cmd: /src/mayhem/fuzz_numerizer.py
+      libfuzzer: true
